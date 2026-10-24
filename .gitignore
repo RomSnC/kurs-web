@@ -1,0 +1,29 @@
+# Службові файли Windows і macOS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Тимчасові файли Word (з'являються, поки документ відкритий)
+~$*.docx
+~$*.doc
+
+# Налаштування редакторів
+.vscode/
+.idea/
+*.swp
+*~
+
+# Особисті налаштування Claude Code (спільні правила — у CLAUDE.md)
+.claude/settings.local.json
+
+# Паролі, ключі доступу й інші секрети (правило безпеки 3)
+.env
+.env.*
+*.key
+*.pem
+
+# Журнали й тимчасові файли
+*.log
+*.tmp
